@@ -49,6 +49,7 @@ function bubbly() {
         x: id,
         y: value,
         mode: 'markers',
+        text: hovertext,
         marker: {
           size: value,
           color: id
